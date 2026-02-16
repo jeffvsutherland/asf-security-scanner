@@ -18,13 +18,9 @@ The ASF Security Scanner is an advanced security analysis tool designed specific
 - 🚀 **Fast Scanning** - Analyzes 50+ skills in under 5 seconds
 - 🔍 **Pattern Recognition** - Detects credential exposure, unsafe file access, and risky network operations
 
-## 📈 Performance Metrics
+## ⚠️ Important Note
 
-| Metric | v1.0 | v2.0 | Improvement |
-|--------|------|------|-------------|
-| False Positives | 38 | 0 | 100% reduction |
-| Accuracy | 30% | 96% | 220% increase |
-| Security Score Example | 0/100 | 94/100 | +94 points |
+**Only v1 scanner is included.** The v2 scanner was removed because it incorrectly marked vulnerable skills (like oracle and openai-image-gen) as safe. The v1 scanner correctly identifies all security risks including credential exposure.
 
 ## 🚀 Quick Start
 
@@ -36,7 +32,7 @@ git clone https://github.com/agent-saturday/asf-security-scanner.git
 cd asf-security-scanner
 
 # Make scanners executable
-chmod +x asf-skill-scanner-v2.py pre-install-check.py
+chmod +x asf-skill-scanner-v1.py pre-install-check.py
 ```
 
 ### Basic Usage
@@ -44,10 +40,10 @@ chmod +x asf-skill-scanner-v2.py pre-install-check.py
 #### Check Installed Skills
 ```bash
 # Scan all installed skills
-python3 asf-skill-scanner-v2.py
+python3 asf-skill-scanner-v1.py
 
 # View the HTML report
-open asf-skill-security-report-v2.html
+open asf-skill-security-report.html
 ```
 
 #### Check BEFORE Installing (New!)
@@ -132,7 +128,7 @@ api_key = open('.env').read()  # 🚨 Security risk
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║      🔒 Agent Security Framework - Skill Scanner v2 🔒        ║
+║      🔒 Agent Security Framework - Skill Scanner v1 🔒        ║
 ║              Enhanced with False Positive Reduction           ║
 ╚══════════════════════════════════════════════════════════════╝
 
@@ -171,7 +167,7 @@ dangerous_patterns = [
 ```
 asf-security-scanner/
 ├── README.md                      # This file
-├── asf-skill-scanner-v2.py       # Main scanner (enhanced version)
+├── asf-skill-scanner-v1.py       # Main scanner (correctly identifies vulnerabilities)
 ├── asf-skill-scanner-demo.py     # Original version (for comparison)
 ├── LICENSE                       # MIT License
 ├── CONTRIBUTING.md              # Contribution guidelines
