@@ -1,0 +1,406 @@
+{
+  "scan_date": "2026-02-16T07:23:52.305950",
+  "scanner_version": "v2.0",
+  "summary": {
+    "total_skills": 54,
+    "safe_skills": 52,
+    "warning_skills": 2,
+    "danger_skills": 0,
+    "security_score": 94,
+    "false_positives_avoided": 3
+  },
+  "skills": [
+    {
+      "name": "1password",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "apple-notes",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "apple-reminders",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "bear-notes",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "bird",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "blogwatcher",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "blucli",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "bluebubbles",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "camsnap",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "canvas",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "clawdhub",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "coding-agent",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "discord",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "eightctl",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "food-order",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "gemini",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "gifgrep",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "github",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "gog",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "goplaces",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "himalaya",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "imsg",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "local-places",
+      "status": "WARNING",
+      "issues": [
+        "SKILL.md: Makes POST requests"
+      ],
+      "false_positives": [
+        "SKILL.md: Makes POST requests (False positive: Found in comment)"
+      ],
+      "good_practices": []
+    },
+    {
+      "name": "mcporter",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "model-usage",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "nano-banana-pro",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": [
+        "scripts/generate_image.py: Uses environment variables properly"
+      ]
+    },
+    {
+      "name": "nano-pdf",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "notion",
+      "status": "WARNING",
+      "issues": [
+        "SKILL.md: Makes POST requests"
+      ],
+      "false_positives": [
+        "SKILL.md: Makes POST requests (False positive: Found in comment)"
+      ],
+      "good_practices": []
+    },
+    {
+      "name": "obsidian",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "openai-image-gen",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": [
+        "scripts/gen.py: Uses environment variables properly"
+      ]
+    },
+    {
+      "name": "openai-whisper",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "openai-whisper-api",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "openhue",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "oracle",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "ordercli",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "peekaboo",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "sag",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "session-logs",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "sherpa-onnx-tts",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "skill-creator",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "slack",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "songsee",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "sonoscli",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "spotify-player",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "summarize",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "things-mac",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "tmux",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "trello",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [
+        "SKILL.md: Makes POST requests (False positive: Found in comment)"
+      ],
+      "good_practices": []
+    },
+    {
+      "name": "video-frames",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "voice-call",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "wacli",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "weather",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "moltbook-interact",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    },
+    {
+      "name": "moltbook-post-verified",
+      "status": "SAFE",
+      "issues": [],
+      "false_positives": [],
+      "good_practices": []
+    }
+  ]
+}
