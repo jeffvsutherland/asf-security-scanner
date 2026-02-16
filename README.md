@@ -62,6 +62,18 @@ python3 pre-install-check.py --docker-check
 bash demo-pre-install.sh
 ```
 
+### 🎬 Complete Security Lifecycle Demo
+
+```bash
+# See how ASF prevents real vulnerabilities
+cd demo && ./run-demo.sh
+```
+
+This demo shows:
+1. **Detection** - Finding vulnerabilities in oracle and openai-image-gen skills
+2. **Remediation** - Creating secure versions with encrypted credential storage  
+3. **Verification** - Confirming the vulnerabilities are fixed
+
 ## 📋 What It Scans
 
 The scanner analyzes skills for:
